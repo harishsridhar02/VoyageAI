@@ -1,6 +1,6 @@
 # VoyageAI
-#🌍 Travel Recommendation App
-#An intelligent travel planner that delivers real-time, personalized travel suggestions using the Google Gemini API, Google Places API, and a Streamlit web interface. Designed for tourists and travel enthusiasts, this app simplifies destination discovery with AI-powered recommendations based on user preferences like location, interests, and budget.
+# 🌍 Travel Recommendation App
+# An intelligent travel planner that delivers real-time, personalized travel suggestions using the Google Gemini API, Google Places API, and a Streamlit web interface. Designed for tourists and travel enthusiasts, this app simplifies destination discovery with AI-powered recommendations based on user preferences like location, interests, and budget.
 
 ✨ Features
 🧠 Natural language understanding using Google Gemini API
