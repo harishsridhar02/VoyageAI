@@ -161,7 +161,7 @@ def main():
             st.experimental_rerun()
         return
 
-    st.sidebar.title("Travel Recommendation App Demo")
+    st.sidebar.title("VoyageAI 🌎")
 
 
     st.sidebar.write('Please fill in the fields below.')
@@ -308,7 +308,7 @@ def main():
             st.dataframe(df_place_rename)
 
         def maps():
-            st.header("🌏 Travel Recommendation App 🌏")
+            st.header("🌏 VoyageAI 🌏")
 
             places_type = st.radio('Looking for: ',["Hotels 🏨", "Restaurants 🍴","Tourist Attractions ⭐"])
             initial_location = [initial_latitude, initial_longitude]
