@@ -1,96 +1,59 @@
-# VoyageAI
-# 🌍 Travel Recommendation App
-# An intelligent travel planner that delivers real-time, personalized travel suggestions using the Google Gemini API, Google Places API, and a Streamlit web interface. Designed for tourists and travel enthusiasts, this app simplifies destination discovery with AI-powered recommendations based on user preferences like location, interests, and budget.
+# 🌍 VoyageAI – Travel Recommendation App
 
-✨ Features
-🧠 Natural language understanding using Google Gemini API
+**VoyageAI** is an intelligent travel planner that delivers real-time, personalized travel suggestions using the **Google Gemini API**, **Google Places API**, and a sleek **Streamlit** interface.  
+Tailored for tourists, solo travellers, and adventure seekers, the app simplifies destination discovery with AI-powered recommendations based on location, interests, and budget.
 
-📍 Real-time data fetching via Google Places API
+---
 
-🏨 Categorized suggestions: Hotels, Restaurants, Attractions
+## ✨ Features
 
-📊 Rating-based and location-biased filtering
+- 🧠 Natural language understanding using **Google Gemini API**
+- 📍 Real-time data fetching via **Google Places API**
+- 🏨 Categorized suggestions: **Hotels, Restaurants, Attractions**
+- 📊 Filtering based on ratings and proximity
+- 🖥️ Interactive and lightweight **Streamlit GUI**
+- 📌 Context-aware travel recommendations
 
-🖥️ Interactive and lightweight Streamlit GUI
+---
 
-📌 Personalized travel experiences based on context
+## 🚀 Tech Stack
 
-🚀 Tech Stack
-Frontend: Streamlit (Python)
+- **Frontend**: Streamlit (Python)
+- **AI/NLP**: Google Gemini API (GenAI)
+- **Backend**: Python, Pandas, JSON handling
+- **APIs**: Google Places API
 
-AI: Google Gemini (GenAI) for NLP and intent extraction
+---
 
-Backend: Python, Pandas, JSON handling
+## 🧠 How It Works
 
-APIs: Google Places API
+1. **User Input**: Enter a natural language query (e.g., “Best tourist spots in Rome under $100”)
+2. **Intent Extraction**: Gemini API processes and extracts keywords (location, interest, budget)
+3. **Data Fetching**: Google Places API fetches live details like names, reviews, ratings
+4. **Filtering**: Results are refined based on rating, type, and relevance
+5. **Display**: Final suggestions shown in an organized, interactive format
 
-🧠 How It Works
-User enters a natural language query (e.g., “Find the best restaurants in Paris under $50”)
+---
 
-Gemini API processes the intent and extracts details
 
-Places API fetches real-time data based on extracted keywords
 
-App filters results by rating, location, and type
+[User Input: Streamlit]
+        ↓
+[Intent Processing: Google Gemini API]
+        ↓
+[Keyword Extraction & Filtering: Python Backend]
+        ↓
+[Real-Time Place Data: Google Places API]
+        ↓
+[Recommendation Output: Streamlit Display]
 
-Final suggestions are displayed with names, ratings, and images
 
-📷 Demo
-Insert GIF or screenshots here showing the input and personalized output
+## Future Enhancements
+🧳 Multi-city itinerary planner
 
-🔧 Setup & Installation
-Install Dependencies
+💸 Travel cost estimations and filters
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set Up API Keys
+📅 Integration with calendars and booking platforms
 
-Obtain your Google Gemini API Key
+🎙️ Voice-based input with Speech-to-Text support
 
-Obtain your Google Places API Key
-
-Create a .env file and add:
-
-ini
-Copy
-Edit
-GEMINI_API_KEY=your_key
-GOOGLE_API_KEY=your_key
-Run the App
-
-bash
-Copy
-Edit
-streamlit run app.py
-🗺️ Architecture Overview
-Input Layer: Streamlit captures user queries
-
-Processing Layer: Gemini interprets intent; Python backend parses data
-
-Data Layer: Google Places API fetches place details
-
-Output Layer: Streamlit displays results in a user-friendly format
-
-📚 Literature & Inspiration
-Vaswani et al., Attention is All You Need, 2017
-
-Raffel et al., Exploring Transfer Learning with T5, 2020
-
-Lewis et al., BART: Denoising Pre-training, 2019
-
-Google Gemini API Documentation
-
-Google Places API Documentation
-
-Streamlit Official Docs
-
-✅ Future Enhancements
-Add multi-city itinerary planner
-
-Include travel cost estimations and filters
-
-Integration with calendar/bookings
-
-Voice-based input using Speech-to-Text
