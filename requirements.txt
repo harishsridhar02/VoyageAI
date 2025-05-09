@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.29.0
+pandas>=2.1.4
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# UI packages
+folium>=0.14.0
+streamlit-folium>=0.18.0
+pydantic>=2.5.3
+
+# Utility packages
+cachetools>=5.3.2
+tenacity>=8.2.3
+retry>=0.9.2
+
+# LangChain dependencies
+langchain-community>=0.0.10
+langchain>=0.1.0
+
+# AI/ML dependencies
+openai>=1.6.1
+tiktoken>=0.5.2
+
+# Vector store dependencies
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+transformers>=4.36.2
+hnswlib>=0.7.0

@@ -1,59 +1,40 @@
-# 🌍 VoyageAI – Travel Recommendation App
+# Travel Recommendation Application using Google Places API and OpenAI LLM
 
-**VoyageAI** is an intelligent travel planner that delivers real-time, personalized travel suggestions using the **Google Gemini API**, **Google Places API**, and a sleek **Streamlit** interface.  
-Tailored for tourists, solo travellers, and adventure seekers, the app simplifies destination discovery with AI-powered recommendations based on location, interests, and budget.
+- [Application Demo](https://travel-planner-demo.streamlit.app/)
 
----
-
-## ✨ Features
-
-- 🧠 Natural language understanding using **Google Gemini API**
-- 📍 Real-time data fetching via **Google Places API**
-- 🏨 Categorized suggestions: **Hotels, Restaurants, Attractions**
-- 📊 Filtering based on ratings and proximity
-- 🖥️ Interactive and lightweight **Streamlit GUI**
-- 📌 Context-aware travel recommendations
+The "Travel Recommendation App" project aims to develop a travel recommendation system using Google Places API and OpenAI LLM that returns a list of recommended location based on users input. 
 
 ---
 
-## 🚀 Tech Stack
+## File Explanation
+This repository consists of several files :
 
-- **Frontend**: Streamlit (Python)
-- **AI/NLP**: Google Gemini API (GenAI)
-- **Backend**: Python, Pandas, JSON handling
-- **APIs**: Google Places API
+```
+    ┌── app.py
+    ├── requirements.txt
+    ├── .gitignore
+    └── README.md
+```
+- `app.py`: This file is the main script for the frontend of the application and is developed using the Streamlit framework.
 
----
+- `requirements.txt`: This file lists the Python dependencies required for frontend application. These dependencies can be installed using a package manager like pip.
 
-## 🧠 How It Works
-
-1. **User Input**: Enter a natural language query (e.g., “Best tourist spots in Rome under $100”)
-2. **Intent Extraction**: Gemini API processes and extracts keywords (location, interest, budget)
-3. **Data Fetching**: Google Places API fetches live details like names, reviews, ratings
-4. **Filtering**: Results are refined based on rating, type, and relevance
-5. **Display**: Final suggestions shown in an organized, interactive format
+- `README.md`: This is a Markdown file that typically contains documentation for the project. It include information on how to set up and run your application, dependencies, and any other relevant details.
 
 ---
 
+## Application
 
+### How to use
 
-[User Input: Streamlit]
-        ↓
-[Intent Processing: Google Gemini API]
-        ↓
-[Keyword Extraction & Filtering: Python Backend]
-        ↓
-[Real-Time Place Data: Google Places API]
-        ↓
-[Recommendation Output: Streamlit Display]
+Users can use this application by entering the desired location on the widget. The application features a chatbot that users can converse with to receive suggestions.
 
+**User Input**
 
-## Future Enhancements
-🧳 Multi-city itinerary planner
+https://github.com/ahmadluay9/travel-planner-app/assets/123846438/92bf43c8-98d6-43d9-82c8-92960fd0302e
 
-💸 Travel cost estimations and filters
+**ChatBot**
 
-📅 Integration with calendars and booking platforms
+https://github.com/ahmadluay9/travel-planner-app/assets/123846438/e195792e-4763-4b03-87ae-74a4518508f2
 
-🎙️ Voice-based input with Speech-to-Text support
 
